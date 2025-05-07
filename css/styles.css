@@ -47,14 +47,16 @@ footer div ul {
 }
 
 /* estilos pagina servicios*/
-.texto-servicio{
+main div .texto-servicio{
     text-align: justify;
 }
-.img-servicio{
+
+
+main div .img-servicio{
     border-radius: 15px;
 }
 
-.seccion-preguntas{
+section div .seccion-preguntas{
     background-color: #fff;
 
     box-shadow: 0 2px 9px rgba(0,0.5,0.5,0.05);
@@ -65,6 +67,6 @@ footer div ul {
 
 /* estilos de pagina nosotros*/
 
-.img-nosotros{
+main div .img-nosotros{
     border-radius: 20px;
 }
