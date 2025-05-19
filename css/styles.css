@@ -1,72 +1,105 @@
+@charset "UTF-8";
+/*utilidades*/
+/* variables de sass*/
 /*reset*/
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+/*reset*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 /* pagina principal*/
 /* estilos para el header*/
-
-header nav{
-    background-color: #fdf6f0;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+header nav {
+  background-color: #fdf6f0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
 main div {
-    text-align: justify;
-    align-items: center;
+  text-align: justify;
+  align-items: center;
 }
 
-
-
-.boton{
-    background-color: rgb(0, 128, 128, 0.4);
-    color: white;
-    border:none;
-    border-radius: 35px;
+main img {
+  border-radius: 15px;
 }
 
-
-footer{
-    height: 350px;
-    justify-content: center;
-    align-items: center;
-    background-color: #fdf6f0;
+/* animacion a boton usado en todas las seccione*/
+.boton {
+  background-color: rgba(0, 128, 128, 0.4);
+  color: white;
+  border: none;
+  border-radius: 35px;
+  transition: transform 0.3s ease;
 }
 
-footer div p{
-    text-align: center;
-
+.boton:hover {
+  transform: scale(1.1);
+  color: rgba(2, 94, 94, 0.4);
 }
 
-footer div ul {
-    list-style: none;
-    color: rgb(0, 128, 128, 0.4);
-    justify-content: center;
+/* estilos del footer*/
+footer {
+  height: 350px;
+}
+
+footer {
+  justify-content: center;
+  align-items: center;
+  background-color: #fdf6f0;
+}
+footer p {
+  text-align: center;
+  font-size: 1rem;
+  color: ·333;
+}
+footer ul {
+  list-style: none;
+  color: rgba(0, 128, 128, 0.4);
+  justify-content: center;
+}
+footer ul li {
+  cursor: pointer;
 }
 
 /* estilos pagina servicios*/
-main div .texto-servicio{
-    text-align: justify;
+main.container {
+  margin-top: 3rem;
+}
+main.container .row .col-12 h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+main.container .row .col-12 .texto-servicio {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+}
+main.container .row img.img-servicio {
+  margin-bottom: 0.5rem;
+  border-radius: 15px;
 }
 
-
-main div .img-servicio{
-    border-radius: 15px;
+/* animacion de imagenes de pagina servicio*/
+.img-servicio {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 15px;
+}
+.img-servicio:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-section div .seccion-preguntas{
-    background-color: #fff;
-
-    box-shadow: 0 2px 9px rgba(0,0.5,0.5,0.05);
-
+/* seccion preguntas */
+section div .seccion-preguntas {
+  background-color: #fff;
+  box-shadow: 0 2px 9px rgba(0, 0.5, 0.5, 0.05);
 }
-
-
 
 /* estilos de pagina nosotros*/
-
-main div .img-nosotros{
-    border-radius: 20px;
+main div .img-nosotros {
+  border-radius: 20px;
 }
+
+/*# sourceMappingURL=styles.css.map */

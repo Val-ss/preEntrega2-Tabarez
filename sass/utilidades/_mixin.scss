@@ -1,0 +1,8 @@
+@mixin medidas ($height){
+    height: $height;
+}
+
+@mixin alineaciones{
+    text-align: justify;
+    align-items: center;
+}
