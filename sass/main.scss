@@ -7,6 +7,7 @@
 @use 'base/reset';
 
 /* pagina principal*/
+
 /* estilos para el header*/
 
 header nav{
@@ -24,6 +25,14 @@ main{
     }
 }
 
+/* estilos para las tarjetas de servicio del index*/
+
+.tarjeta{
+    background-color: vars.$color-fondo-nav;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    font-family: sans-serif;
+    color: #333;
+}
 
 /* animacion a boton usado en todas las seccione*/
 .boton{
