@@ -36,6 +36,9 @@ section div .tarjeta {
   margin-right: 20px;
   border-radius: 8px;
 }
+section div .tarjeta h3 {
+  text-align: left;
+}
 
 /* animacion a boton usado en todas las seccione*/
 .boton {
