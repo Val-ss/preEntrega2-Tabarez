@@ -26,17 +26,21 @@ main{
 }
 
 /* estilos para las tarjetas de servicio del index*/
-
-.tarjeta{
-    background-color: #f3c5e2;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
-    font-family: sans-serif;
-    color: #333;
-    text-align: justify;
-    padding: 20px;
-    margin-right: 20px;
-    border-radius: 8px;
+section{
+    div{
+        .tarjeta{
+            background-color: #fdf6f0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+            font-family: sans-serif;
+            color: #333;
+            text-align: justify;
+            padding: 20px;
+            margin-right: 20px;
+            border-radius: 8px;
+        }
+    }
 }
+
 
 /* animacion a boton usado en todas las seccione*/
 .boton{
