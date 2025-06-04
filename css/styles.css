@@ -37,9 +37,6 @@ section div .tarjeta {
   border-radius: 8px;
 }
 
-section {
-  justify-content: center;
-}
 section div .img-tarjeta-servicio {
   width: 150px;
   max-width: 400px;
