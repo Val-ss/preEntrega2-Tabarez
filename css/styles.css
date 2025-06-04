@@ -35,13 +35,13 @@ section div .tarjeta {
   padding: 20px;
   margin-right: 20px;
   border-radius: 8px;
-  object-fit: cover;
 }
 
 section div .img-tarjeta-servicio {
   width: 210px;
   max-width: 400px;
   border-radius: 15px;
+  object-fit: cover;
 }
 
 /* animacion a boton usado en todas las seccione*/
