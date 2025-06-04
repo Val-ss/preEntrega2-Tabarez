@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*utilidades*/
 /* variables de sass*/
 /*reset*/
@@ -35,9 +34,6 @@ section div .tarjeta {
   padding: 20px;
   margin-right: 20px;
   border-radius: 8px;
-}
-section div .tarjeta h3 {
-  text-align: left;
 }
 
 /* animacion a boton usado en todas las seccione*/
