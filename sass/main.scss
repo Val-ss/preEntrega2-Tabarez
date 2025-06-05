@@ -86,13 +86,14 @@ footer{
 
     ul{
         list-style: none;
-        color: rgb(0, 128, 128, 0.4);
         justify-content: center;
 
         li{
             cursor: pointer;
             a{
                 text-decoration: none;
+                color: rgb(0, 128, 128, 0.4);
+
             }
         }
 
