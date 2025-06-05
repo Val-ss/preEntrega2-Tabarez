@@ -81,6 +81,9 @@ footer ul {
 footer ul li {
   cursor: pointer;
 }
+footer ul li a {
+  text-decoration: none;
+}
 
 /* estilos pagina servicios*/
 main.container {
